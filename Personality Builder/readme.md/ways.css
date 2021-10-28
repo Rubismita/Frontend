@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+    margin: 10px;
+  }
+  .footer{
+    background: #263238;
+    color: #f4f4f4;
+    text-align:center ;
+}
+.sicial-media-links i{
+    margin: 0.5rem;
+}
+  .header{
+    background-color:#263238;
+    color:white;
+    text-align: center;
+    font-size: 25px;
+  }
+
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  flex: 70%;
+}
+ .side{
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+ }
+
+
+p{
+  font-size: 18px;
+}

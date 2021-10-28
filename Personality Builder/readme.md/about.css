@@ -1,0 +1,38 @@
+
+/* Include padding and border in total box size*/
+* {
+  box-sizing: border-box;
+  background-color: lightslategray;
+  font-family: 'Courgette', cursive;
+}
+
+/* Create two equal columns that float next to each other */
+.column-2 {
+  float: left;
+  width: 45%;
+  padding: 40px;
+  padding-left:70px;
+  padding-right: 70px;
+  height: 475px;
+  margin:30px;
+  margin-right:30px;
+  margin-bottom: 70px;
+  background-color: #aaa;
+  line-height:2;
+  border-style:solid;
+  border-width: 5px;
+}
+/* Large profile image */
+.large-profile {
+  background: url('image/1\ \(4\).jpg');
+  background-size: cover;
+  background-position: center;
+}
+h1{
+  background-color: #aaa; 
+}
+p{
+  background-color: #aaa;
+  text-size-adjust: 100px;
+  
+}

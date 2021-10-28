@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="home.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
+<body >
+<div class="header">
+  <h1>Build Your Personality</h1>
+  <marquee width="500px" height="40px" direction="left">Personality is an unbroken series of successful gestures.</marquee>
+</div>
+
+<div class="sidenav">
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="login.html">Log-in</a>
+  <a href="register.html">Register</a>
+  <button class="dropdown-btn">Content
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="ways.html">ways to improve Personality</a>
+    <a href="quotes.html">Motivational Quotes</a>
+  </div>
+  <a href="gallery.html">Gallery</a>
+  
+</div>
+
+<div class="main">
+  <h2>What is personality ?</h2>
+  <p>The personality is the typical pattern of thinking, feeling, and behaviors that make a person unique.
+ When we say that someone has a "good personality" we mean that they are likable, interesting and pleasant to be with.
+ Everyone wants to be attractive to others. To that end, having a good personality is vital - probably even more so than good looks.</p>
+    
+    <p>In fact, approximately 85 percent of your success and happiness will be a result of how well you interact with others. Ultimately, it is your personality that determines whether people are attracted to, or shy away from you.
+    While we can only enhance our looks to a certain extent, we can improve our personality as much as we want. We can develop or integrate into our personalities any trait we deem fitting and agreeable.</p>
+  
+</div>
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+  
+}
+</script>
+
+<br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>Quote1</h3>
+      <p></p>
+      <p>“You cannot change your destination overnight,but you can change your direction overnight.If you want to reach your goals and fulfill your potential,become intentional about your personal growth. ”</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>Quote2</h3>
+      <p></p>
+      <p>“People must come to the understanding that they do not have a fixed identity. They have the power to identify and alter features of their personalities that they find negative or unpleasant.”      </p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Quote3</h3>
+      <p></p>
+      <p>“We become good or bad because of our environment and companionship. Indeed, a human is a product of its environment and companionship which reflects in the personality inside out”</p>
+    </div>
+  </div>
+
+   
+  
+  
+</div>
+<div class="footer">
+  
+  <h2></h2>
+
+ <div class="pagination">
+     <a href="#">&laquo;</a>
+     <a href="login.html">1</a>
+     <a href="register.html">2</a>
+     <a href="about.html">3</a>
+     <a href="contact.html">4</a>
+     <a href="gallery.html">5</a>
+     <a href="#">&raquo;</a>
+
+  </div>
+</div>
+  
+</body>
+</html> 
+ 
